@@ -1,0 +1,12 @@
+Sitemap: https://pj568.eu.org/sitemap.xml
+
+user-agent: *
+Disallow: /admin/
+Disallow: /css/*
+Disallow: /imgaes/
+Disallow: .jpg$
+Disallow: .jpeg$
+Disallow: .gif$
+Disallow: .png$
+Disallow: .bmp$
+Disallow: .webp$
