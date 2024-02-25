@@ -1,0 +1,45 @@
+info {
+    border-radius: 4px;
+    padding: 1rem;
+    min-height: 144px;
+}
+
+info .info_a {
+    width: 100%;
+    background-color: #F5F5F5;
+    display: flex;
+    flex-direction: column;
+    border-radius: 4px;
+}
+
+info .info_a :hover{
+    background-color: #EEE;
+}
+
+info .wicon {
+    border-radius: 4px;
+    width: max-content;
+}
+
+info table {
+    table-layout: fixed;
+}
+
+info a img {
+    width: 72px;
+    height: 72px;
+    border-radius: 72px;
+    float: left;
+    margin-top: .5rem;
+}
+
+info a .title {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+info a .cont {
+    font-weight: normal;
+    font-size: 1.1rem;
+    word-wrap: break-word;
+}

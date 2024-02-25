@@ -1,0 +1,1 @@
+const darkmode = new Darkmode();

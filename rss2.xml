@@ -1,0 +1,652 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>PJ568的博客</title>
+    <link>https://pj568.eu.org/</link>
+    
+    <image>
+      <url>https://pj568.eu.org/images/PJ568.svg</url>
+      <title>PJ568的博客</title>
+      <link>https://pj568.eu.org/</link>
+    </image>
+    
+    <atom:link href="https://pj568.eu.org/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>笔记、日志、技术分享</description>
+    <pubDate>Sun, 25 Feb 2024 10:24:56 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>hexo-theme-icarus 主题适配 Pjax</title>
+      <link>https://pj568.eu.org/2024/02-25-Add_Pjax_support_to_hexo-theme-icarus/</link>
+      <guid>https://pj568.eu.org/2024/02-25-Add_Pjax_support_to_hexo-theme-icarus/</guid>
+      <pubDate>Sun, 25 Feb 2024 07:51:32 GMT</pubDate>
+      
+      <description>&lt;p&gt;我发现 Pjax 能极大增加页面切换的流畅度。于是我着手适配。&lt;/p&gt;
+&lt;p&gt;参考文章：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://liuyib.github.io/2019/09/24/use-pjax-to-your-site/&quot;&gt;集成 Pjax 实现网站无刷新加载&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://github.com/MoOx/pjax/blob/master/README.md&quot;&gt;MoOx/pjax&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/">静态网页</category>
+      
+      <category domain="https://pj568.eu.org/tags/HTML/">HTML</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E7%BD%91%E9%A1%B5%E7%9B%B8%E5%85%B3/">网页相关</category>
+      
+      <category domain="https://pj568.eu.org/tags/Hexo/">Hexo</category>
+      
+      <category domain="https://pj568.eu.org/tags/Javascript/">Javascript</category>
+      
+      
+      <comments>https://pj568.eu.org/2024/02-25-Add_Pjax_support_to_hexo-theme-icarus/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>568flat-ventoy-theme</title>
+      <link>https://pj568.eu.org/2024/01-19-568flat-ventoy-theme/</link>
+      <guid>https://pj568.eu.org/2024/01-19-568flat-ventoy-theme/</guid>
+      <pubDate>Thu, 18 Jan 2024 16:00:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;🌏简体中文 | &lt;a href=&quot;?language=chinese_traditional&quot;&gt;繁體中文&lt;/a&gt; | &lt;a href=&quot;?language=japanese&quot;&gt;日本語&lt;/a&gt; | &lt;a href=&quot;?language=korean&quot;&gt;한어&lt;/a&gt; | &lt;a href=&quot;?language=english&quot;&gt;English&lt;/a&gt; | &lt;a href=&quot;?language=spanish&quot;&gt;Español&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🗃️&lt;a href=&quot;https://github.com/PJ-568/568flat-ventoy-theme&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://gitee.com/PJ-568/568flat-ventoy-theme&quot;&gt;Gitee&lt;/a&gt; | &lt;a href=&quot;https://www.pling.com/p/2123244&quot;&gt;Pling&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;568flat is a cool grub 2 theme which is designed for ventoy.&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E9%A1%B9%E7%9B%AE/">项目</category>
+      
+      <category domain="https://pj568.eu.org/categories/%E9%A1%B9%E7%9B%AE/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://pj568.eu.org/tags/grub/">grub</category>
+      
+      <category domain="https://pj568.eu.org/tags/ventoy/">ventoy</category>
+      
+      
+      <comments>https://pj568.eu.org/2024/01-19-568flat-ventoy-theme/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>中国为什么要力促俄乌通过谈判解决冲突？</title>
+      <link>https://pj568.eu.org/2023/11-07-Why_is_China_pushing_for_resolving_the_Russia-Ukraine_conflict_through_negotiations/</link>
+      <guid>https://pj568.eu.org/2023/11-07-Why_is_China_pushing_for_resolving_the_Russia-Ukraine_conflict_through_negotiations/</guid>
+      <pubDate>Tue, 07 Nov 2023 07:27:43 GMT</pubDate>
+      
+      <description>&lt;p&gt;近两年时间，俄罗斯与乌克兰之间的冲突引人关注。和往常一样，中国希望俄罗斯与乌克兰的矛盾能够在谈判桌上和平解决。我将论述中国如此主张的原因。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/%E5%BD%A2%E5%BC%8F%E4%B8%8E%E6%94%BF%E7%AD%96/">形式与政策</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/%E9%9D%9E%E4%B8%BB%E4%BF%AE%E4%B8%93%E4%B8%9A/">非主修专业</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E5%BD%A2%E5%BC%8F%E4%B8%8E%E6%94%BF%E7%AD%96/">形式与政策</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/11-07-Why_is_China_pushing_for_resolving_the_Russia-Ukraine_conflict_through_negotiations/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>PJ568&#39;s Universal System for Else Heart.Break()</title>
+      <link>https://pj568.eu.org/2023/10-31-PJ568&#39;s_Universal_System/</link>
+      <guid>https://pj568.eu.org/2023/10-31-PJ568&#39;s_Universal_System/</guid>
+      <pubDate>Tue, 31 Oct 2023 03:11:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;PJ568’s Universal System can provide you with many functions on single computer in Else Heart.Break(). Remote client is supported.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://steamcommunity.com/sharedfiles/filedetails/?id=3067058828&quot;&gt;Steam Community&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/Lua/">Lua</category>
+      
+      <category domain="https://pj568.eu.org/tags/Else-Heart-Break/">Else Heart.Break()</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/10-31-PJ568&#39;s_Universal_System/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>568_Calc</title>
+      <link>https://pj568.eu.org/2023/10-16-568_Calc/</link>
+      <guid>https://pj568.eu.org/2023/10-16-568_Calc/</guid>
+      <pubDate>Mon, 16 Oct 2023 10:00:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;🌏简体中文 | &lt;a href=&quot;https://Calc.PJ568.eu.org/?language=chinese_traditional&quot;&gt;繁體中文&lt;/a&gt; | &lt;a href=&quot;https://Calc.PJ568.eu.org/?language=japanese&quot;&gt;日本語&lt;/a&gt; | &lt;a href=&quot;https://Calc.PJ568.eu.org/?language=korean&quot;&gt;한어&lt;/a&gt; | &lt;a href=&quot;https://Calc.PJ568.eu.org/?language=english&quot;&gt;English&lt;/a&gt; | &lt;a href=&quot;https://Calc.PJ568.eu.org/?language=spanish&quot;&gt;Español&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🗃️&lt;a href=&quot;https://github.com/PJ-568/568_Calc&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://gitee.com/PJ-568/568_Calc&quot;&gt;Gitee&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;&lt;img width=&quot;30&quot; style=&quot;margin: -3px 5px;&quot; src=&quot;https://calc.pj568.eu.org/assets/favicon.svg&quot;/&gt;568_Calc&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img width=&quot;15&quot; src=&quot;https://calc.pj568.eu.org/assets/favicon.svg&quot;/&gt; 568_Calc 是一个简单的多平台支持的计算器。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E9%A1%B9%E7%9B%AE/">项目</category>
+      
+      <category domain="https://pj568.eu.org/categories/%E9%A1%B9%E7%9B%AE/%E5%A4%9A%E5%B9%B3%E5%8F%B0/">多平台</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/Godot/">Godot</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/10-16-568_Calc/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>mdBook 用 translate.js 实现国际化自动多语言翻译</title>
+      <link>https://pj568.eu.org/2023/09-26-mdBook_translation_and_multilingual/</link>
+      <guid>https://pj568.eu.org/2023/09-26-mdBook_translation_and_multilingual/</guid>
+      <pubDate>Tue, 26 Sep 2023 04:48:24 GMT</pubDate>
+      
+      <description>&lt;p&gt;&lt;a href=&quot;https://rust-lang.github.io/mdBook/&quot;&gt;mdBook&lt;/a&gt; 的多语言翻译和国际化一直是一个问题。&lt;/p&gt;
+&lt;p&gt;不想为国际化而重写文章。因此，我集成 &lt;a href=&quot;//github.com/xnx3/translate&quot;&gt;translate.js&lt;/a&gt; 。&lt;/p&gt;
+&lt;p&gt;我曾分别维护两个不同语言 &lt;a href=&quot;https://rust-lang.github.io/mdBook/&quot;&gt;mdBook&lt;/a&gt; 来解决国际化问题。直到我发现了 &lt;a href=&quot;https://github.com/xnx3/translate&quot;&gt;translate.js&lt;/a&gt; 这个项目。它支持几乎一键翻译页面，而且可以手动修正页面的翻译不准确处。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/%E7%BD%91%E9%A1%B5%E7%9B%B8%E5%85%B3/">网页相关</category>
+      
+      <category domain="https://pj568.eu.org/tags/Javascript/">Javascript</category>
+      
+      <category domain="https://pj568.eu.org/tags/mdBook/">mdBook</category>
+      
+      <category domain="https://pj568.eu.org/tags/Rust/">Rust</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/09-26-mdBook_translation_and_multilingual/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>mdBook 添加 giscus 评论系统支持</title>
+      <link>https://pj568.eu.org/2023/09-26-Make_comments_with_giscus_in_mdBook/</link>
+      <guid>https://pj568.eu.org/2023/09-26-Make_comments_with_giscus_in_mdBook/</guid>
+      <pubDate>Tue, 26 Sep 2023 03:26:35 GMT</pubDate>
+      
+      <description>&lt;p&gt;&lt;a href=&quot;https://rust-lang.github.io/mdBook/&quot;&gt;mdBook&lt;/a&gt; 若是有一个评论系统就能让读者交流，也能收到读者的反馈。&lt;/p&gt;
+&lt;p&gt;本文将记录我将 &lt;a href=&quot;https://giscus.app&quot;&gt;giscus&lt;/a&gt; 评论系统集成到 &lt;a href=&quot;https://rust-lang.github.io/mdBook/&quot;&gt;mdBook&lt;/a&gt; 的过程。&lt;/p&gt;
+&lt;p&gt;我参考了&lt;a href=&quot;https://github.com/sunface/rust-course&quot;&gt;《Rust语言圣经（rust-course）》&lt;/a&gt;的方案。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/%E6%95%99%E7%A8%8B/">教程</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/%E7%BD%91%E9%A1%B5%E7%9B%B8%E5%85%B3/">网页相关</category>
+      
+      <category domain="https://pj568.eu.org/tags/Javascript/">Javascript</category>
+      
+      <category domain="https://pj568.eu.org/tags/mdBook/">mdBook</category>
+      
+      <category domain="https://pj568.eu.org/tags/Rust/">Rust</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/09-26-Make_comments_with_giscus_in_mdBook/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>重建 Hexo 博客日志</title>
+      <link>https://pj568.eu.org/2023/09-23-Rebuild_Hexo_site/</link>
+      <guid>https://pj568.eu.org/2023/09-23-Rebuild_Hexo_site/</guid>
+      <pubDate>Sat, 23 Sep 2023 09:28:56 GMT</pubDate>
+      
+      <description>&lt;p&gt;几百年前刚建立这个博客时几乎什么都不懂，胡乱作一气。尽管包管理稀烂，Bug 层出不穷，部署时一堆报错……但索性能运行起来。&lt;/p&gt;
+&lt;p&gt;最近把整个仓库推到 Github 做持续集成，数据也不那么容易遗失。刚开始看没问题，结果主题调用的资源全部变成相对路径了，一片报错。&lt;/p&gt;
+&lt;p&gt;剪不断，理还乱……烂摊不好收，就&lt;strong&gt;重新建一个&lt;/strong&gt;！&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/HTML/">HTML</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E7%BD%91%E9%A1%B5%E7%9B%B8%E5%85%B3/">网页相关</category>
+      
+      <category domain="https://pj568.eu.org/tags/Hexo/">Hexo</category>
+      
+      <category domain="https://pj568.eu.org/tags/Node-js/">Node.js</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/09-23-Rebuild_Hexo_site/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>哈姆语言之书</title>
+      <link>https://pj568.eu.org/2023/08-15-Hamud_Book/</link>
+      <guid>https://pj568.eu.org/2023/08-15-Hamud_Book/</guid>
+      <pubDate>Mon, 14 Aug 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;🌏简体中文 | &lt;a href=&quot;//hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=chinese_traditional&quot;&gt;繁體中文&lt;/a&gt; | &lt;a href=&quot;//hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=japanese&quot;&gt;日本語&lt;/a&gt; | &lt;a href=&quot;//hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=korean&quot;&gt;한어&lt;/a&gt; | &lt;a href=&quot;//hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=english&quot;&gt;English&lt;/a&gt; | &lt;a href=&quot;//hamud.pj568.eu.org/zh-Hans-CN/About_Book.html?language=spanish&quot;&gt;Español&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🗃️&lt;a href=&quot;//github.com/Hamud-Lang/Hamud_Book&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;//gitee.com/Hamud-Lang/Hamud_Book&quot;&gt;Gitee&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;&lt;img width=&quot;30px&quot; style=&quot;margin: -3px 5px;&quot; src=&quot;https://Hamud.PJ568.eu.org/zh-Hans-CN/favicon.svg&quot;/&gt;哈姆语言之书&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;本项目旨在为哈姆语提供标准范本。为学习哈姆语的人提供参考资料和交流平台。&lt;/li&gt;
+&lt;li&gt;假若您对本项目感到满意，请在您的指尖星空&lt;a href=&quot;//github.com/Hamud-Lang/Hamud_Book&quot;&gt;绘制一颗新的星🌟&lt;/a&gt;，指引我们继续砥砺前行。&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;//Hamud.PJ568.eu.org/index.html&quot;&gt;点击访问&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E9%A1%B9%E7%9B%AE/">项目</category>
+      
+      <category domain="https://pj568.eu.org/categories/%E9%A1%B9%E7%9B%AE/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/">静态网页</category>
+      
+      <category domain="https://pj568.eu.org/tags/HTML/">HTML</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/08-15-Hamud_Book/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Blcak_screen 黑色全屏</title>
+      <link>https://pj568.eu.org/2023/06-25-Blcak_screen/</link>
+      <guid>https://pj568.eu.org/2023/06-25-Blcak_screen/</guid>
+      <pubDate>Sat, 24 Jun 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;🌏简体中文 | &lt;a href=&quot;?language=chinese_traditional&quot;&gt;繁體中文&lt;/a&gt; | &lt;a href=&quot;?language=japanese&quot;&gt;日本語&lt;/a&gt; | &lt;a href=&quot;?language=korean&quot;&gt;한어&lt;/a&gt; | &lt;a href=&quot;?language=english&quot;&gt;English&lt;/a&gt; | &lt;a href=&quot;?language=spanish&quot;&gt;Español&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🗃️&lt;a href=&quot;https://github.com/PJ-568/Black_screen&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://gitee.com/PJ-568/Black_screen&quot;&gt;Gitee&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;&lt;img width=&quot;30px&quot; style=&quot;margin: -3px 5px;&quot; src=&quot;https://Tools.PJ568.eu.org/img/icon.svg&quot;/&gt;黑色全屏&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;一个能显示全屏黑色的HTML文件。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E9%A1%B9%E7%9B%AE/">项目</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/">静态网页</category>
+      
+      <category domain="https://pj568.eu.org/tags/HTML/">HTML</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/06-25-Blcak_screen/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Spinning_Bird 转转雀</title>
+      <link>https://pj568.eu.org/2023/06-03-Spinning_Bird/</link>
+      <guid>https://pj568.eu.org/2023/06-03-Spinning_Bird/</guid>
+      <pubDate>Fri, 02 Jun 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;h1&gt;&lt;img width=&quot;30&quot; style=&quot;margin: -3px 5px;&quot; src=&quot;https://pj568.eu.org/Spinning_Bird/img/icon.svg&quot;/&gt;Spinning_Bird&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🌏简体中文 | &lt;a href=&quot;?language=chinese_traditional&quot;&gt;繁體中文&lt;/a&gt; | &lt;a href=&quot;?language=japanese&quot;&gt;日本語&lt;/a&gt; | &lt;a href=&quot;?language=korean&quot;&gt;한어&lt;/a&gt; | &lt;a href=&quot;?language=english&quot;&gt;English&lt;/a&gt; | &lt;a href=&quot;?language=spanish&quot;&gt;Español&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🗃️&lt;a href=&quot;https://github.com/PJ-568/Spinning_Bird&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://gitee.com/PJ-568/Spinning_Bird&quot;&gt;Gitee&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;❓转转雀是什么&quot;&gt;❓转转雀是什么&lt;/h2&gt;
+&lt;p&gt;转转雀是一组网页前端页面模板。&lt;/p&gt;
+&lt;p&gt;默认具有搜索，地址导航等功能。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E9%A1%B9%E7%9B%AE/">项目</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/">静态网页</category>
+      
+      <category domain="https://pj568.eu.org/tags/HTML/">HTML</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/06-03-Spinning_Bird/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>中国式现代化道路上新时代青年的使命担当</title>
+      <link>https://pj568.eu.org/2023/05-30-The_Mission_and_Responsibility_of_Youth_in_the_New_Era_on_the_Path_of_Chinese-style_Modernization/</link>
+      <guid>https://pj568.eu.org/2023/05-30-The_Mission_and_Responsibility_of_Youth_in_the_New_Era_on_the_Path_of_Chinese-style_Modernization/</guid>
+      <pubDate>Tue, 30 May 2023 13:19:43 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;中国式现代化道路上新时代青年的使命担当&quot;&gt;中国式现代化道路上新时代青年的使命担当&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;伴随着中国经济的快速发展和全球话语权的逐渐增强，新时代青年的使命担当日益凸显。这其中涉及到许多方面，包括国家建设、社会进步、文化传承等等。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E4%B8%AD%E5%9B%BD%E5%8C%96/">马克思主义中国化</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/%E9%A9%AC%E5%85%8B%E6%80%9D%E4%B8%BB%E4%B9%89%E4%B8%AD%E5%9B%BD%E5%8C%96/">马克思主义中国化</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E9%9D%9E%E4%B8%BB%E4%BF%AE%E4%B8%93%E4%B8%9A/">非主修专业</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/05-30-The_Mission_and_Responsibility_of_Youth_in_the_New_Era_on_the_Path_of_Chinese-style_Modernization/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>函数的间断性</title>
+      <link>https://pj568.eu.org/2023/05-26-Discontinuity_of_Functions/</link>
+      <guid>https://pj568.eu.org/2023/05-26-Discontinuity_of_Functions/</guid>
+      <pubDate>Fri, 26 May 2023 15:24:42 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2 id=&quot;第一类间断点&quot;&gt;第一类间断点&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;间断点&lt;/code&gt;处左右极限都存在；&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/">高等数学</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/%E4%B8%93%E4%B8%9A%E4%B8%BB%E4%BF%AE/">专业主修</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E9%AB%98%E7%AD%89%E6%95%B0%E5%AD%A6/">高等数学</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/05-26-Discontinuity_of_Functions/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>词汇</title>
+      <link>https://pj568.eu.org/2023/05-19-Words/</link>
+      <guid>https://pj568.eu.org/2023/05-19-Words/</guid>
+      <pubDate>Fri, 19 May 2023 00:55:00 GMT</pubDate>
+      
+      <description>英语单词表。</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/English/">English</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/05-19-Words/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>本地部署推理中文 LLaMA 模型</title>
+      <link>https://pj568.eu.org/2023/05-08-Run_LLaMA_models_locally/</link>
+      <guid>https://pj568.eu.org/2023/05-08-Run_LLaMA_models_locally/</guid>
+      <pubDate>Mon, 08 May 2023 12:40:00 GMT</pubDate>
+      
+      <description>在 Windows 、Linux 、安卓等平台上本地推理 LLaMA 语言模型。</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">人工智能</category>
+      
+      <category domain="https://pj568.eu.org/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/">大语言模型</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/Linux/">Linux</category>
+      
+      <category domain="https://pj568.eu.org/tags/AI/">AI</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/">大语言模型</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E5%AE%89%E5%8D%93/">安卓</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/05-08-Run_LLaMA_models_locally/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Github pages 多个子域名访问多个仓库的页面</title>
+      <link>https://pj568.eu.org/2023/05-07-Github_pages_subdomains_setting/</link>
+      <guid>https://pj568.eu.org/2023/05-07-Github_pages_subdomains_setting/</guid>
+      <pubDate>Sun, 07 May 2023 07:34:49 GMT</pubDate>
+      
+      <description>&lt;h2 id=&quot;思考&quot;&gt;思考&lt;/h2&gt;
+&lt;p&gt;Github pages 如何设置能用不同子域名访问不同仓库的页面？&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;假设：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;您的域名为：“Dom.x”；&lt;/li&gt;
+&lt;li&gt;您的用户名为：“Username”。&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;原先的访问形式是：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Username仓库对应Dom.x&lt;/li&gt;
+&lt;li&gt;A仓库对应Dom.x/A&lt;/li&gt;
+&lt;li&gt;B仓库对应Dom.x/B&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;理想的访问形式：&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Username仓库对应Dom.x&lt;/li&gt;
+&lt;li&gt;A仓库对应Aname.Dom.x&lt;/li&gt;
+&lt;li&gt;B仓库对应Bname.Dom.x&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/%E7%BD%91%E9%A1%B5%E7%9B%B8%E5%85%B3/">网页相关</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/05-07-Github_pages_subdomains_setting/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>568tools 在线工具箱</title>
+      <link>https://pj568.eu.org/2023/05-04-568tools/</link>
+      <guid>https://pj568.eu.org/2023/05-04-568tools/</guid>
+      <pubDate>Wed, 03 May 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;blockquote&gt;
+&lt;p&gt;🌏简体中文 | &lt;a href=&quot;?language=chinese_traditional&quot;&gt;繁體中文&lt;/a&gt; | &lt;a href=&quot;?language=japanese&quot;&gt;日本語&lt;/a&gt; | &lt;a href=&quot;?language=korean&quot;&gt;한어&lt;/a&gt; | &lt;a href=&quot;?language=english&quot;&gt;English&lt;/a&gt; | &lt;a href=&quot;?language=spanish&quot;&gt;Español&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;🗃️&lt;a href=&quot;https://github.com/PJ-568/568tools&quot;&gt;Github&lt;/a&gt; | &lt;a href=&quot;https://gitee.com/PJ-568/568tools&quot;&gt;Gitee&lt;/a&gt; | &lt;a href=&quot;https://gitlab.com/PJ-568/568tools/&quot;&gt;GitLab&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1&gt;&lt;img width=&quot;30&quot; style=&quot;margin: -3px 5px;&quot; src=&quot;https://Tools.PJ568.eu.org/img/icon.svg&quot;/&gt;568Tools 在线工具箱&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;img width=&quot;15px&quot; src=&quot;https://Tools.PJ568.eu.org/img/icon.svg&quot;/&gt; 568Tools 在线工具箱是在线工具的集合。使用大部分工具无需注册、下载或上传到服务器。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E9%A1%B9%E7%9B%AE/">项目</category>
+      
+      <category domain="https://pj568.eu.org/categories/%E9%A1%B9%E7%9B%AE/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/">静态网页</category>
+      
+      <category domain="https://pj568.eu.org/tags/HTML/">HTML</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/05-04-568tools/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>局部变量和全局变量:变量的作用域</title>
+      <link>https://pj568.eu.org/2023/04-13-Local_Variables_and_Global_Variables_-_Variable_Scope/</link>
+      <guid>https://pj568.eu.org/2023/04-13-Local_Variables_and_Global_Variables_-_Variable_Scope/</guid>
+      <pubDate>Thu, 13 Apr 2023 15:37:37 GMT</pubDate>
+      
+        
+        
+          
+          
+      <description>&lt;h2</description>
+          
+        
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/C/">C</category>
+      
+      <category domain="https://pj568.eu.org/tags/Python/">Python</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/04-13-Local_Variables_and_Global_Variables_-_Variable_Scope/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>让 Hexo 主题支持 LaTeX</title>
+      <link>https://pj568.eu.org/2023/04-13-Hexo_LaTeX_support/</link>
+      <guid>https://pj568.eu.org/2023/04-13-Hexo_LaTeX_support/</guid>
+      <pubDate>Thu, 13 Apr 2023 13:34:58 GMT</pubDate>
+      
+      <description>&lt;h1&gt;前提紧要&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;我很长一段时间使用基于 &lt;a href=&quot;https://www.mdui.org/&quot;&gt;MDUI&lt;/a&gt; 开发的 &lt;code&gt;Hexo&lt;/code&gt; 主题 &lt;a href=&quot;https://github.com/niemingzhao/niemingzhao.github.io/tree/theme&quot;&gt;Default&lt;/a&gt; 。我很欣赏它的 &lt;code&gt;Material Design&lt;/code&gt; 风格。但我每欲写数学公式，它就提醒我它没有 LaTeX 支持。它该改了。&lt;/li&gt;
+&lt;/ul&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E7%AC%94%E8%AE%B0/">笔记</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/Hexo/">Hexo</category>
+      
+      <category domain="https://pj568.eu.org/tags/Markdown/">Markdown</category>
+      
+      <category domain="https://pj568.eu.org/tags/Node-js/">Node.js</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/04-13-Hexo_LaTeX_support/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>针对中文微调的 LLaMA：Chinese-Alpaca-LoRA 模型和 LLaMA 的简单部署 Dalai</title>
+      <link>https://pj568.eu.org/2023/04-13-LLaMA_for_Chinese_Fine-tuning_Chinese-Alpaca-LoRA_Model_and_Simple_Deployment_Dalai/</link>
+      <guid>https://pj568.eu.org/2023/04-13-LLaMA_for_Chinese_Fine-tuning_Chinese-Alpaca-LoRA_Model_and_Simple_Deployment_Dalai/</guid>
+      <pubDate>Thu, 13 Apr 2023 00:22:41 GMT</pubDate>
+      
+      <description>&lt;p&gt;&lt;a href=&quot;https://github.com/ymcui/Chinese-LLaMA-Alpaca&quot;&gt;针对中文微调的Chinese-Alpaca-LoRA项目地址&lt;/a&gt;
+&lt;a href=&quot;https://github.com/cocktailpeanut/dalai&quot;&gt;LLaMA部署项目Dalai项目地址&lt;/a&gt;&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">人工智能</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/AI/">AI</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/">大语言模型</category>
+      
+      
+      <comments>https://pj568.eu.org/2023/04-13-LLaMA_for_Chinese_Fine-tuning_Chinese-Alpaca-LoRA_Model_and_Simple_Deployment_Dalai/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,12 @@
+/* 翻译按钮相关 */
+.translateSelectLanguage{z-index:10;width:100%;height:100%;opacity:0;cursor:pointer;position:absolute;left:0}
+
+/* 深色模式相关 */
+.darkmode-layer, .darkmode-toggle{z-index:101}
+.darkmode--activated img{isolation:isolate;mix-blend-mode:difference}
+.darkmode--activated select{background-color:#000;color:#E0E0E0}
+
+/* 固定导航栏 */
+/* .navbar-main{position:fixed !important;width:100% !important;top:0px}
+.section{margin-top:45px} */
+/* 以上方法会导致左端插件被导航栏顶住 */
