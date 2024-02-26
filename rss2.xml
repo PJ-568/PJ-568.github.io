@@ -15,8 +15,44 @@
     <atom:link href="https://pj568.eu.org/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>笔记、日志、技术分享</description>
-    <pubDate>Sun, 25 Feb 2024 10:55:15 GMT</pubDate>
+    <pubDate>Mon, 26 Feb 2024 03:31:34 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>QMole 软件源</title>
+      <link>https://pj568.eu.org/2024/02-26-qmole-source-site/</link>
+      <guid>https://pj568.eu.org/2024/02-26-qmole-source-site/</guid>
+      <pubDate>Mon, 26 Feb 2024 03:29:00 GMT</pubDate>
+      
+      <description>&lt;p align=&quot;center&quot;&gt;
+    &lt;img width=&quot;256&quot; src=&quot;https://qmole.pj568.eu.org/qmole.png&quot; alt=&quot;QMole Logo&quot; /&gt;
+&lt;/p&gt;
+&lt;h1 align=&quot;center&quot;&gt;QMole Software Repository | QMole 软件源&lt;/h1&gt;
+&lt;div style=&quot;padding:1rem&quot;&gt;
+    &lt;p&gt;Cydia: &lt;code&gt;https://qmole.pj568.eu.org/&lt;/code&gt;&lt;/p&gt;
+    &lt;p&gt;QMole Software Repository for Cydia is a mirror which built from &lt;a href=&quot;https://github.com/chriskmanx/qmole-packages&quot;&gt;chriskmanx/qmole-packages&lt;!-- &lt;img alt=&quot;Github repo&quot; src=&quot;https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fchriskmanx%2Fqmole-packages&amp;up_color=007bff&amp;up_message=chriskmanx/qmole-packages&amp;logo=github&amp;label=Github&quot;&gt; --&gt;&lt;/a&gt; to replace outdated http://qmole.uk/linux .&lt;/p&gt;
+    &lt;p&gt;QMole Cydia 软件源以 &lt;a href=&quot;https://github.com/chriskmanx/qmole-packages&quot;&gt;chriskmanx/qmole-packages&lt;!-- &lt;img alt=&quot;Github repo&quot; src=&quot;https://img.shields.io/website?url=https%3A%2F%2Fgithub.com%2Fchriskmanx%2Fqmole-packages&amp;up_color=007bff&amp;up_message=chriskmanx/qmole-packages&amp;logo=github&amp;label=Github&quot;&gt; --&gt;&lt;/a&gt; 为蓝本构建，旨在替代过时的 http://qmole.uk/linux 。&lt;/p&gt;</description>
+      
+      
+      
+      
+      <category domain="https://pj568.eu.org/categories/%E9%A1%B9%E7%9B%AE/">项目</category>
+      
+      <category domain="https://pj568.eu.org/categories/%E9%A1%B9%E7%9B%AE/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      
+      <category domain="https://pj568.eu.org/tags/%E5%89%8D%E7%AB%AF/">前端</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E9%9D%99%E6%80%81%E7%BD%91%E9%A1%B5/">静态网页</category>
+      
+      <category domain="https://pj568.eu.org/tags/HTML/">HTML</category>
+      
+      <category domain="https://pj568.eu.org/tags/%E8%BD%AF%E4%BB%B6%E6%BA%90/">软件源</category>
+      
+      
+      <comments>https://pj568.eu.org/2024/02-26-qmole-source-site/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>hexo-theme-icarus 主题适配 Pjax</title>
@@ -621,30 +657,6 @@
       
       
       <comments>https://pj568.eu.org/2023/04-13-Hexo_LaTeX_support/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>针对中文微调的 LLaMA：Chinese-Alpaca-LoRA 模型和 LLaMA 的简单部署 Dalai</title>
-      <link>https://pj568.eu.org/2023/04-13-LLaMA_for_Chinese_Fine-tuning_Chinese-Alpaca-LoRA_Model_and_Simple_Deployment_Dalai/</link>
-      <guid>https://pj568.eu.org/2023/04-13-LLaMA_for_Chinese_Fine-tuning_Chinese-Alpaca-LoRA_Model_and_Simple_Deployment_Dalai/</guid>
-      <pubDate>Thu, 13 Apr 2023 00:22:41 GMT</pubDate>
-      
-      <description>&lt;p&gt;&lt;a href=&quot;https://github.com/ymcui/Chinese-LLaMA-Alpaca&quot;&gt;针对中文微调的Chinese-Alpaca-LoRA项目地址&lt;/a&gt;
-&lt;a href=&quot;https://github.com/cocktailpeanut/dalai&quot;&gt;LLaMA部署项目Dalai项目地址&lt;/a&gt;&lt;/p&gt;</description>
-      
-      
-      
-      
-      <category domain="https://pj568.eu.org/categories/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/">人工智能</category>
-      
-      
-      <category domain="https://pj568.eu.org/tags/AI/">AI</category>
-      
-      <category domain="https://pj568.eu.org/tags/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/">大语言模型</category>
-      
-      
-      <comments>https://pj568.eu.org/2023/04-13-LLaMA_for_Chinese_Fine-tuning_Chinese-Alpaca-LoRA_Model_and_Simple_Deployment_Dalai/#disqus_thread</comments>
       
     </item>
     
