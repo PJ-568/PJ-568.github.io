@@ -15,7 +15,7 @@
     <atom:link href="https://pj568.eu.org/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>笔记、日志、技术分享</description>
-    <pubDate>Wed, 28 Feb 2024 07:26:16 GMT</pubDate>
+    <pubDate>Thu, 29 Feb 2024 03:01:11 GMT</pubDate>
     <generator>http://hexo.io/</generator>
     
     <item>
@@ -24,7 +24,7 @@
       <guid>https://pj568.eu.org/2024/02-26-qmole-source-site/</guid>
       <pubDate>Mon, 26 Feb 2024 03:29:00 GMT</pubDate>
       
-      <description>&lt;h2 align=&quot;center&quot;&gt;QMole Software Repository | QMole 软件源&lt;/h1&gt;
+      <description>&lt;h2 align=&quot;center&quot;&gt;QMole Software Repository | QMole 软件源&lt;/h2&gt;
 &lt;p&gt;Cydia: &lt;code&gt;http://qmole.pj568.eu.org/&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;QMole Software Repository for Cydia is a mirror which built from &lt;a href=&quot;https://github.com/chriskmanx/qmole-packages&quot;&gt;chriskmanx/qmole-packages&lt;/a&gt; to replace outdated http://qmole.uk/linux .&lt;/p&gt;
 &lt;p&gt;QMole Cydia 软件源以 &lt;a href=&quot;https://github.com/chriskmanx/qmole-packages&quot;&gt;chriskmanx/qmole-packages&lt;/a&gt; 为蓝本构建，旨在替代过时的 http://qmole.uk/linux 。&lt;/p&gt;</description>

@@ -6,7 +6,7 @@
   <link href="https://pj568.eu.org/atom.xml" rel="self"/>
   
   <link href="https://pj568.eu.org/"/>
-  <updated>2024-02-28T07:26:16.000Z</updated>
+  <updated>2024-02-29T03:01:11.000Z</updated>
   <id>https://pj568.eu.org/</id>
   
   <author>
@@ -21,10 +21,10 @@
     <link href="https://pj568.eu.org/2024/02-26-qmole-source-site/"/>
     <id>https://pj568.eu.org/2024/02-26-qmole-source-site/</id>
     <published>2024-02-26T03:29:00.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
-    <summary type="html">&lt;h2 align=&quot;center&quot;&gt;QMole Software Repository | QMole 软件源&lt;/h1&gt;
+    <summary type="html">&lt;h2 align=&quot;center&quot;&gt;QMole Software Repository | QMole 软件源&lt;/h2&gt;
 &lt;p&gt;Cydia: &lt;code&gt;http://qmole.pj568.eu.org/&lt;/code&gt;&lt;/p&gt;
 &lt;p&gt;QMole Software Repository for Cydia is a mirror which built from &lt;a href=&quot;https://github.com/chriskmanx/qmole-packages&quot;&gt;chriskmanx/qmole-packages&lt;/a&gt; to replace outdated http://qmole.uk/linux .&lt;/p&gt;
 &lt;p&gt;QMole Cydia 软件源以 &lt;a href=&quot;https://github.com/chriskmanx/qmole-packages&quot;&gt;chriskmanx/qmole-packages&lt;/a&gt; 为蓝本构建，旨在替代过时的 http://qmole.uk/linux 。&lt;/p&gt;</summary>
@@ -51,7 +51,7 @@
     <link href="https://pj568.eu.org/2024/02-25-Add_Pjax_support_to_hexo-theme-icarus/"/>
     <id>https://pj568.eu.org/2024/02-25-Add_Pjax_support_to_hexo-theme-icarus/</id>
     <published>2024-02-25T07:51:32.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;我发现 Pjax 能极大增加页面切换的流畅度。于是我着手适配。&lt;/p&gt;
@@ -87,7 +87,7 @@
     <link href="https://pj568.eu.org/2024/01-19-568flat-ventoy-theme/"/>
     <id>https://pj568.eu.org/2024/01-19-568flat-ventoy-theme/</id>
     <published>2024-01-18T16:00:00.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -118,7 +118,7 @@
     <link href="https://pj568.eu.org/2023/11-07-Why_is_China_pushing_for_resolving_the_Russia-Ukraine_conflict_through_negotiations/"/>
     <id>https://pj568.eu.org/2023/11-07-Why_is_China_pushing_for_resolving_the_Russia-Ukraine_conflict_through_negotiations/</id>
     <published>2023-11-07T07:27:43.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;近两年时间，俄罗斯与乌克兰之间的冲突引人关注。和往常一样，中国希望俄罗斯与乌克兰的矛盾能够在谈判桌上和平解决。我将论述中国如此主张的原因。&lt;/p&gt;</summary>
@@ -141,7 +141,7 @@
     <link href="https://pj568.eu.org/2023/10-31-PJ568&#39;s_Universal_System/"/>
     <id>https://pj568.eu.org/2023/10-31-PJ568&#39;s_Universal_System/</id>
     <published>2023-10-31T03:11:00.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;PJ568’s Universal System can provide you with many functions on single computer in Else Heart.Break(). Remote client is supported.&lt;/p&gt;
@@ -167,7 +167,7 @@
     <link href="https://pj568.eu.org/2023/10-16-568_Calc/"/>
     <id>https://pj568.eu.org/2023/10-16-568_Calc/</id>
     <published>2023-10-16T10:00:00.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -197,7 +197,7 @@
     <link href="https://pj568.eu.org/2023/09-26-mdBook_translation_and_multilingual/"/>
     <id>https://pj568.eu.org/2023/09-26-mdBook_translation_and_multilingual/</id>
     <published>2023-09-26T04:48:24.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://rust-lang.github.io/mdBook/&quot;&gt;mdBook&lt;/a&gt; 的多语言翻译和国际化一直是一个问题。&lt;/p&gt;
@@ -226,7 +226,7 @@
     <link href="https://pj568.eu.org/2023/09-26-Make_comments_with_giscus_in_mdBook/"/>
     <id>https://pj568.eu.org/2023/09-26-Make_comments_with_giscus_in_mdBook/</id>
     <published>2023-09-26T03:26:35.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
     <summary type="html">&lt;p&gt;&lt;a href=&quot;https://rust-lang.github.io/mdBook/&quot;&gt;mdBook&lt;/a&gt; 若是有一个评论系统就能让读者交流，也能收到读者的反馈。&lt;/p&gt;
@@ -318,7 +318,7 @@
     <link href="https://pj568.eu.org/2023/06-25-Blcak_screen/"/>
     <id>https://pj568.eu.org/2023/06-25-Blcak_screen/</id>
     <published>2023-06-24T16:00:00.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -350,7 +350,7 @@
     <link href="https://pj568.eu.org/2023/06-03-Spinning_Bird/"/>
     <id>https://pj568.eu.org/2023/06-03-Spinning_Bird/</id>
     <published>2023-06-02T16:00:00.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
     <summary type="html">&lt;h1&gt;&lt;img width=&quot;30&quot; style=&quot;margin: -3px 5px;&quot; src=&quot;https://pj568.eu.org/Spinning_Bird/img/icon.svg&quot;/&gt;Spinning_Bird&lt;/h1&gt;
@@ -408,7 +408,7 @@
     <link href="https://pj568.eu.org/2023/05-26-Discontinuity_of_Functions/"/>
     <id>https://pj568.eu.org/2023/05-26-Discontinuity_of_Functions/</id>
     <published>2023-05-26T15:24:42.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
       
@@ -441,7 +441,7 @@
     <link href="https://pj568.eu.org/2023/05-19-Words/"/>
     <id>https://pj568.eu.org/2023/05-19-Words/</id>
     <published>2023-05-19T00:55:00.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
     <summary type="html">英语单词表。</summary>
@@ -487,7 +487,7 @@
     <link href="https://pj568.eu.org/2023/05-07-Github_pages_subdomains_setting/"/>
     <id>https://pj568.eu.org/2023/05-07-Github_pages_subdomains_setting/</id>
     <published>2023-05-07T07:34:49.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
     <summary type="html">&lt;h2 id=&quot;思考&quot;&gt;思考&lt;/h2&gt;
@@ -532,7 +532,7 @@
     <link href="https://pj568.eu.org/2023/05-04-568tools/"/>
     <id>https://pj568.eu.org/2023/05-04-568tools/</id>
     <published>2023-05-03T16:00:00.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
     <summary type="html">&lt;blockquote&gt;
@@ -566,7 +566,7 @@
     <link href="https://pj568.eu.org/2023/04-13-Local_Variables_and_Global_Variables_-_Variable_Scope/"/>
     <id>https://pj568.eu.org/2023/04-13-Local_Variables_and_Global_Variables_-_Variable_Scope/</id>
     <published>2023-04-13T15:37:37.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
       
@@ -593,7 +593,7 @@
     <link href="https://pj568.eu.org/2023/04-13-Hexo_LaTeX_support/"/>
     <id>https://pj568.eu.org/2023/04-13-Hexo_LaTeX_support/</id>
     <published>2023-04-13T13:34:58.000Z</published>
-    <updated>2024-02-28T07:26:16.000Z</updated>
+    <updated>2024-02-29T03:01:11.000Z</updated>
     
     
     <summary type="html">&lt;h1&gt;前提紧要&lt;/h1&gt;
