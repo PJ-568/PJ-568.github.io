@@ -3,6 +3,7 @@ var pjax = new Pjax({
         "head title",
         ".columns",
         ".navbar-start",
+        ".searchbox",
         "#back-to-top",
         ".pjax-reload"
     ],
