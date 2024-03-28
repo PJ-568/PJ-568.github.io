@@ -15,7 +15,6 @@ https://pj568.eu.org/2023/09-26-Make_comments_with_giscus_in_mdBook/
 https://pj568.eu.org/2023/04-05-Markdown_LaTeX/
 https://pj568.eu.org/2023/10-31-PJ568's_Universal_System/
 https://pj568.eu.org/2023/06-03-Spinning_Bird/
-https://pj568.eu.org/2023/11-07-Why_is_China_pushing_for_resolving_the_Russia-Ukraine_conflict_through_negotiations/
 https://pj568.eu.org/2023/05-19-Words/
 https://pj568.eu.org/2023/09-26-mdBook_translation_and_multilingual/
 https://pj568.eu.org/2024/02-26-qmole-source-site/
@@ -24,6 +23,5 @@ https://pj568.eu.org/2023/05-08-Run_LLaMA_models_locally/
 https://pj568.eu.org/2023/08-15-Hamud_Book/
 https://pj568.eu.org/2023/03-19-Summary_of_Advanced_Calculus_II/
 https://pj568.eu.org/2023/03-20-Summary_of_Linear_Algebra/
-https://pj568.eu.org/2023/05-30-The_Mission_and_Responsibility_of_Youth_in_the_New_Era_on_the_Path_of_Chinese-style_Modernization/
 https://pj568.eu.org/2023/01-14-Manjaro_Linux_driver_issue/
 https://pj568.eu.org/2022/03-03-dd_and_xz_command/
