@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="cn" style="height: 100%;">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=256, initial-scale=1">
+        <meta name="description" content="404">
+        <title>PJ568 | 404</title>
+        <link rel="icon" type="image/svg+xml" href="https://blog.PJ568.sbs/images/PJ568.svg">
+        <style>
+            body {
+                background-color: black;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+
+            body > * {
+                color: #BDBDBD;
+                font-family: Arial, sans-serif;
+            }
+
+            ::selection {
+                background-color: #FFEEEE;
+                color: initial;
+            }
+
+            .container {
+                align-items: center;
+                display: flex;
+                height: calc(100% - 2rem);
+                margin: 0;
+                padding: 1rem;
+                justify-content: center;
+            }
+
+            .container > * {
+                gap: 1rem;
+            }
+
+            .box {
+                max-width: 20rem;
+                border: .1rem solid #424242;
+                border-radius: 1.5rem;
+                overflow: hidden;
+                width: calc(100% - 2rem);
+                margin: auto auto;
+                padding-right: 1rem;
+                padding-bottom: 1rem;
+            }
+
+            .box:hover {
+                color: #E0E0E0;
+                border: .1rem solid #9E9E9E;
+            }
+
+            .child{
+                margin-left: 1rem;
+                margin-top: 1rem;
+            }
+
+            a {
+                text-decoration: none;
+            }
+
+            h1 {
+                font-size: 3rem;
+            }
+
+            @media only screen and (min-width: 600px) and (min-height: 600px) {
+                .container {
+                    align-items: center;
+                    display: flex;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <a class="container" href="/">
+            <div class="box">
+                <h1 class="child">404</h1>
+                <p class="child">未查询到有效信息。点击返回主页。</p>
+            </div>
+        </a>
+    </body>
+</html>
