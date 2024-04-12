@@ -38,12 +38,14 @@
             }
 
             .box {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
                 max-width: 20rem;
                 border: .1rem solid #424242;
                 border-radius: 1.5rem;
                 overflow: hidden;
                 width: calc(100% - 2rem);
-                margin: auto auto;
                 padding-right: 1rem;
                 padding-bottom: 1rem;
             }
@@ -64,6 +66,11 @@
 
             h1 {
                 font-size: 3rem;
+                margin: 0;
+            }
+
+            p {
+                margin: 0;
             }
 
             @media only screen and (min-width: 600px) and (min-height: 600px) {
@@ -78,7 +85,7 @@
         <a class="container" href="/">
             <div class="box">
                 <h1 class="child">404</h1>
-                <p class="child">未查询到有效信息。点击返回主页。</p>
+                <p class="child">未查询到有效信息。点击前往主页。</p>
             </div>
         </a>
     </body>
