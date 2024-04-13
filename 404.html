@@ -27,14 +27,12 @@
             .container {
                 align-items: center;
                 display: flex;
-                height: calc(100% - 2rem);
-                margin: 0;
-                padding: 1rem;
                 justify-content: center;
-            }
-
-            .container > * {
-                gap: 1rem;
+                height: calc(100% - 1rem);
+                margin: 0;
+                padding-right: 1rem;
+                padding-bottom: 1rem;
+                flex-direction: column;
             }
 
             .box {
@@ -44,7 +42,7 @@
                 max-width: 20rem;
                 border: .1rem solid #424242;
                 border-radius: 1.5rem;
-                overflow: hidden;
+                overflow: scroll;
                 width: calc(100% - 2rem);
                 padding-right: 1rem;
                 padding-bottom: 1rem;
@@ -72,18 +70,11 @@
             p {
                 margin: 0;
             }
-
-            @media only screen and (min-aspect-ratio: 1/1), (min-width: 600px) {
-                .container {
-                    align-items: center;
-                    display: flex;
-                }
-            }
         </style>
     </head>
     <body>
         <a class="container" href="/">
-            <div class="box">
+            <div class="box child">
                 <h1 class="child">404</h1>
                 <p class="child">未查询到有效信息。点击前往主页。</p>
             </div>
