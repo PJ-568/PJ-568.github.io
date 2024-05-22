@@ -1,228 +1,239 @@
 <!DOCTYPE html>
 <html lang="cn" style="height: 100%;">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=width=device-width, initial-scale=1">
-        <meta name="description" content="PJ568 的个人介绍页">
-        <title>PJ568 | 个人简介</title>
-        <link rel="icon" type="image/svg+xml" href="https://blog.PJ568.sbs/images/PJ568.svg">
-        <style>
-            body {
-                background-color: black;
-                height: 100%;
-                margin: 0;
-                padding: 0;
-            }
 
-            body > * {
-                color: #BDBDBD;
-                font-family: Arial, sans-serif;
-            }
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=width=device-width, initial-scale=1">
+    <meta name="description" content="PJ568 的个人介绍页">
+    <title>PJ568 | 个人简介</title>
+    <link rel="icon" type="image/svg+xml" href="https://blog.PJ568.sbs/images/PJ568.svg">
+    <style>
+        body {
+            background-color: black;
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
 
-            ::selection {
-                background-color: #FFEEEE;
-                color: initial;
+        body>* {
+            color: #BDBDBD;
+            font-family: Arial, sans-serif;
+        }
+
+        ::selection {
+            background-color: #FFEEEE;
+            color: initial;
+        }
+
+        .container {
+            height: calc(100% - 1rem);
+            margin: 0;
+            padding-right: 1rem;
+            padding-bottom: 1rem;
+            flex-direction: column;
+        }
+
+        .box {
+            border: .1rem solid #424242;
+            border-radius: 1.5rem;
+            overflow: hidden;
+            width: calc(100% - 2rem);
+            padding-right: 1rem;
+            padding-bottom: 1rem;
+        }
+
+        .box:hover {
+            color: #E0E0E0;
+            border: .1rem solid #9E9E9E;
+
+            table {
+                border: .1rem solid #616161;
+            }
+        }
+
+        .vbox {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .hbox {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .child {
+            margin-left: 1rem;
+            margin-top: 1rem;
+        }
+
+        .item-container {
+            align-items: center;
+            box-sizing: border-box;
+            margin-left: 1rem;
+            gap: 1rem;
+            justify-content: space-between;
+            white-space: nowrap;
+        }
+
+        .item-container .item {
+            color: inherit;
+            align-items: center;
+            border: .1rem solid transparent;
+            border-radius: .5rem;
+            box-sizing: border-box;
+            display: flex;
+            margin-top: 1rem;
+            padding: .5rem;
+            text-align: center;
+        }
+
+        .item-container a:hover {
+            cursor: pointer
+        }
+
+        .item-container .item a,
+        .item-container .item img,
+        .item-container .item svg {
+            height: 100%;
+        }
+
+        .item-container .占据 {
+            flex: 1 1;
+        }
+
+        .item-container>*:hover {
+            border: .1rem solid #9E9E9E;
+        }
+
+        .icon {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-radius: .5rem;
+            width: max-content;
+            max-width: 256px;
+            min-width: 133px;
+            text-align: center;
+            font-size: 4rem;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        p {
+            margin: 0;
+            margin-top: 1rem;
+        }
+
+        h1 {
+            font-size: 3rem;
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin: 0;
+        }
+
+        table {
+            margin-top: 1rem;
+            border-spacing: 0;
+            border-radius: .5rem;
+            width: 100%;
+            border-collapse: separate;
+            border: .1rem solid #424242;
+        }
+
+        table td,
+        table th {
+            padding: .5rem;
+            border-right: .1rem solid #424242;
+        }
+
+        table td {
+            border-top: .1rem solid #424242;
+        }
+
+        table td:last-child,
+        th:last-child {
+            border-right-color: transparent;
+        }
+
+        table tr:first-child>* {
+            border-top: .1rem solid transparent;
+        }
+
+        @media only screen and (min-width: 600px) {
+            .icon {
+                height: 256px;
+                width: 256px;
             }
 
             .container {
-                height: calc(100% - 1rem);
-                margin: 0;
-                padding-right: 1rem;
-                padding-bottom: 1rem;
-                flex-direction: column;
-            }
-
-            .box {
-                border: .1rem solid #424242;
-                border-radius: 1.5rem;
-                overflow: hidden;
-                width: calc(100% - 2rem);
-                padding-right: 1rem;
-                padding-bottom: 1rem;
-            }
-
-            .box:hover {
-                color: #E0E0E0;
-                border: .1rem solid #9E9E9E;
-            }
-
-            .vbox {
+                align-items: center;
                 display: flex;
-                flex-wrap: wrap;
-                flex-direction: column;
-                justify-content: space-between;
             }
 
-            .hbox {
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-            }
-
-            .child{
-                margin-left: 1rem;
-                margin-top: 1rem;
-            }
 
             .item-container {
-                align-items: center;
-                box-sizing: border-box;
-                margin-left: 1rem;
-                gap: 1rem;
-                justify-content: space-between;
-                white-space: nowrap;
-            }
-
-            .item-container .item {
-                color: inherit;
-                align-items: center;
-                border: .1rem solid transparent;
-                border-radius: .5rem;
-                box-sizing: border-box;
                 display: flex;
-                margin-top: 1rem;
-                padding: .5rem;
-                text-align: center;
+                flex-wrap: wrap;
             }
 
-            .item-container a:hover {
-                cursor: pointer
+            .item {
+                width: calc(33% - 1rem);
+                min-width: 10rem;
             }
+        }
 
-            .item-container .item a, .item-container .item img, .item-container .item svg {
-                height: 100%;
+        @media only screen and (min-height: 450px) {
+            .container {
+                justify-content: center;
             }
+        }
+    </style>
+    <!-- 以下是平台验证 -->
+    <meta name="baidu-site-verification" content="codeva-VIhFvCpWlA" />
+</head>
 
-            .item-container .占据 {
-                flex: 1 1;
-            }
-
-            .item-container > *:hover {
-                border: .1rem solid #9E9E9E;
-            }
-
-            .icon {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                border-radius: .5rem;
-                width: max-content;
-                max-width: 256px;
-                min-width: 133px;
-                text-align: center;
-                font-size: 4rem;
-            }
-
-            a {
-                text-decoration: none;
-            }
-
-            p {
-                margin: 0;
-                margin-top: 1rem;
-            }
-
-            h1 {
-                font-size: 3rem;
-                margin: 0;
-            }
-
-            h2 {
-                font-size: 1.5rem;
-                margin: 0;
-            }
-
-            table {
-                margin-top: 1rem;
-                border-spacing: 0;
-                border-radius: .5rem;
-                width: 100%;
-                border-collapse: separate;
-                border: .1rem solid #424242;
-            }
-
-            table td, table th {
-                padding: .5rem;
-                border-right: .1rem solid #424242;
-            }
-
-            table td {
-                border-top: .1rem solid #424242;
-            }
-
-            table td:last-child, th:last-child {
-                border-right-color: transparent;
-            }
-
-            table tr:first-child > * {
-                border-top: .1rem solid transparent;
-            }
-
-            @media only screen and (min-width: 600px) {
-                .icon {
-                    height: 256px;
-                    width: 256px;
-                }
-
-                .container {
-                    align-items: center;
-                    display: flex;
-                }
-
-
-                .item-container {
-                    display: flex;
-                    flex-wrap: wrap;
-                }
-
-                .item {
-                    width: calc(33% - 1rem);
-                    min-width: 10rem;
-                }
-            }
-
-            @media only screen and (min-height: 450px) {
-                .container {
-                    justify-content: center;
-                }
-            }
-        </style>
-        <!-- 以下是平台验证 -->
-        <meta name="baidu-site-verification" content="codeva-VIhFvCpWlA" />
-    </head>
-    <body>
-        <div class="container">
-            <div class="vbox">
-                <div class="box hbox child">
-                    <img class="icon child" alt="PJ568 的头像" src="https://blog.PJ568.sbs/images/PJ568.svg">
-                    <div class="vbox child">
-                        <h1>PJ568</h1>
-                        <p>:-)</p>
-                        <table>
-                            <tr>
-                                <td>性别</td>
-                                <td>年龄</td>
-                                <td>星座</td>
-                                <td>状态</td>
-                            </tr>
-                            <tr>
-                                <td>男</td>
-                                <td>零零后</td>
-                                <td>水瓶座</td>
-                                <td>本科在读</td>
-                            </tr>
-                        </table>
-                    </div>
+<body>
+    <div class="container">
+        <div class="vbox">
+            <div class="box hbox child">
+                <img class="icon child" alt="PJ568 的头像" src="https://blog.PJ568.sbs/images/PJ568.svg">
+                <div class="vbox child">
+                    <h1>PJ568</h1>
+                    <p>:-)</p>
+                    <table>
+                        <tr>
+                            <td>性别</td>
+                            <td>年龄</td>
+                            <td>星座</td>
+                            <td>状态</td>
+                        </tr>
+                        <tr>
+                            <td>男</td>
+                            <td>零零后</td>
+                            <td>水瓶座</td>
+                            <td>本科在读</td>
+                        </tr>
+                    </table>
                 </div>
-                <div class="box vbox child">
-                    <h2 class="child">可访问</h2>
-                    <div class="item-container">
-                        <a class="item" href="https://blog.PJ568.sbs">PJ568 的博客</a>
-                        <a class="item" href="https://tools.PJ568.sbs">在线工具箱</a>
-                        <a class="item" href="https://dsh.PJ568.sbs">服务器终端</a>
-                    </div>
+            </div>
+            <div class="box vbox child">
+                <h2 class="child">可访问</h2>
+                <div class="item-container">
+                    <a class="item" href="https://blog.PJ568.sbs">PJ568 的博客</a>
+                    <a class="item" href="https://tools.PJ568.sbs">在线工具箱</a>
+                    <a class="item" href="https://dsh.PJ568.sbs">服务器终端</a>
                 </div>
             </div>
         </div>
-    </body>
+    </div>
+</body>
+
 </html>
