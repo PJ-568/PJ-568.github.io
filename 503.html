@@ -2,88 +2,134 @@
 <html lang="zh-Hans" style="height: 100%;">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=width=device-width, initial-scale=1">
-    <meta name="description" content="503">
-    <meta http-equiv="refresh" content="10;url=/">
-    <title>PJ568 | 503</title>
-    <link rel="icon" type="image/svg+xml" href="https://blog.PJ568.sbs/images/PJ568.svg">
-    <link rel='stylesheet'
-        href='https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Regular/result.css' />
-    <style>
-        body {
-            background-color: black;
-            height: 100%;
-            margin: 0;
-            padding: 0;
-        }
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=width=device-width, initial-scale=1">
+  <meta name="description" content="503">
+  <meta http-equiv="refresh" content="10;url=/">
+  <title>PJ568 | 503</title>
+  <link rel="icon" type="image/svg+xml" href="https://blog.PJ568.sbs/images/PJ568.svg">
+  <script>
+    // 使用 IIFE 包裹以避免全局变量污染
+    (function () {
+      // 加载 CSS
+      function loadCSS(url) {
+        return new Promise((resolve, reject) => {
+          //// 检查是否已加载
+          const existingLinks = document.querySelectorAll(`link[href="${url}"]`);
+          if (existingLinks.length > 0) {
+            return resolve(url);
+          }
 
-        body>* {
-            color: #BDBDBD;
-            font-family: 'Maple Mono CN', Arial, sans-serif;
-        }
+          //// 创建新的 link 元素
+          const link = document.createElement('link');
+          link.rel = 'stylesheet';
+          link.type = 'text/css';
+          link.href = url;
 
-        ::selection {
-            background-color: #FFEEEE;
-            color: initial;
-        }
+          //// 成功加载处理
+          link.onload = () => {
+            link.onload = null;
+            link.onerror = null;
+            resolve(url);
+          };
 
-        .container {
-            align-items: center;
-            display: flex;
-            justify-content: center;
-            height: calc(100% - 1rem);
-            margin: 0;
-            padding-right: 1rem;
-            padding-bottom: 1rem;
-            flex-direction: column;
-        }
+          //// 加载失败处理
+          link.onerror = () => {
+            link.onerror = null;
+            link.onload = null;
+            document.head.removeChild(link);
+            reject(new Error(`无法加载CSS文件: ${url}`));
+          };
 
-        .box {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            max-width: 20rem;
-            border: .1rem solid #424242;
-            border-radius: 1.5rem;
-            overflow: scroll;
-            width: calc(100% - 2rem);
-            padding-right: 1rem;
-            padding-bottom: 1rem;
-        }
+          //// 添加到文档头部
+          document.head.appendChild(link);
+        });
+      }
 
-        .box:hover {
-            color: #E0E0E0;
-            border: .1rem solid #9E9E9E;
-        }
+      // 初始化
+      function initialize() {
+        loadCSS('https://chinese-fonts-cdn.deno.dev/packages/maple-mono-cn/dist/MapleMono-CN-Regular/result.css'); //// 加载字体 CSS
+      }
 
-        .child {
-            margin-left: 1rem;
-            margin-top: 1rem;
-        }
+      // 触发器
+      //// 网页加载完毕后触发初始化
+      window.addEventListener('DOMContentLoaded', () => initialize());
+    })();
+  </script>
+  <style>
+    body {
+      background-color: black;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
 
-        a {
-            text-decoration: none;
-        }
+    body>* {
+      color: #BDBDBD;
+      font-family: 'Maple Mono CN', Arial, sans-serif;
+    }
 
-        h1 {
-            font-size: 3rem;
-            margin: 0;
-        }
+    ::selection {
+      background-color: #FFEEEE;
+      color: initial;
+    }
 
-        p {
-            margin: 0;
-        }
-    </style>
+    .container {
+      align-items: center;
+      display: flex;
+      justify-content: center;
+      height: calc(100% - 1rem);
+      margin: 0;
+      padding-right: 1rem;
+      padding-bottom: 1rem;
+      flex-direction: column;
+    }
+
+    .box {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      max-width: 20rem;
+      border: .1rem solid #424242;
+      border-radius: 1.5rem;
+      overflow: scroll;
+      width: calc(100% - 2rem);
+      padding-right: 1rem;
+      padding-bottom: 1rem;
+    }
+
+    .box:hover {
+      color: #E0E0E0;
+      border: .1rem solid #9E9E9E;
+    }
+
+    .child {
+      margin-left: 1rem;
+      margin-top: 1rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 0;
+    }
+
+    p {
+      margin: 0;
+    }
+  </style>
 </head>
 
 <body>
-    <a class="container" href="/">
-        <div class="box child">
-            <h1 class="child">503</h1>
-            <p class="child">服务不可用。点击尝试前往主页。</p>
-        </div>
-    </a>
+  <a class="container" href="/">
+    <div class="box child">
+      <h1 class="child">503</h1>
+      <p class="child">服务不可用。点击尝试前往主页。</p>
+    </div>
+  </a>
 </body>
 
 </html>
