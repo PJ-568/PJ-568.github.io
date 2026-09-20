@@ -5,7 +5,6 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=width=device-width, initial-scale=1">
   <meta name="description" content="401">
-  <meta http-equiv="refresh" content="10;url=/">
   <title>PJ568 | 401</title>
   <link rel="icon" type="image/svg+xml" href="PJ568.svg">
   <script>
@@ -123,13 +122,14 @@
   </style>
 </head>
 
-<body>
-  <a class="container" href="/">
+<body data-fallback-redirect="10000">
+  <a class="container" data-fallback="@" href="/">
     <div class="box child">
       <h1 class="child">401</h1>
       <p class="child">访问未授权。点击前往主页。</p>
     </div>
   </a>
+  <script src="fallback.js"></script>
 </body>
 
 </html>

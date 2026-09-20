@@ -273,123 +273,14 @@
       <div class="box vbox child">
         <h2 class="child">可访问</h2>
         <div class="item-container">
-          <a class="item" data-service="blog" href="//blog.pj568.top">PJ568 的博客</a>
-          <a class="item" data-service="tools" href="//tools.pj568.top">在线工具箱</a>
-          <a class="item" data-service="dsh" href="//dsh.pj568.top">服务器终端</a>
+          <a class="item" data-fallback="blog" href="//blog.pj568.top">PJ568 的博客</a>
+          <a class="item" data-fallback="tools" href="//tools.pj568.top">在线工具箱</a>
+          <a class="item" data-fallback="dsh" href="//dsh.pj568.top">服务器终端</a>
         </div>
       </div>
     </div>
   </div>
-  <script>
-    // 链接可用性逐级 Fallback：<服务>.<当前域名> > <服务>.pj568.top > <服务>.pj568.eu.org
-    (function () {
-      //// 兜底域名，首个同时作为全部失败时的默认值
-      const FALLBACK_DOMAINS = ['pj568.top', 'pj568.eu.org'];
-      //// 单次探测超时（毫秒）
-      const PROBE_TIMEOUT = 4000;
-
-      //// 解析结果缓存：service -> Promise<{ url, available }>
-      const resolutionCache = {};
-
-      // 生成候选地址：当前域名优先（保留端口），其后依次为兜底域名，去重
-      function candidateUrls(service) {
-        const origins = [location.host].concat(FALLBACK_DOMAINS);
-        const seen = {};
-        const urls = [];
-        origins.forEach((origin) => {
-          if (!origin || seen[origin]) return;
-          seen[origin] = true;
-          urls.push('//' + service + '.' + origin);
-        });
-        return urls;
-      }
-
-      // 默认兜底地址
-      function fallbackUrl(service) {
-        return '//' + service + '.' + FALLBACK_DOMAINS[0];
-      }
-
-      // 探测单个地址：能建立连接（含非 2xx、跨域不透明响应）即视为可用
-      function probe(url) {
-        return new Promise((resolve, reject) => {
-          if (typeof fetch !== 'function') {
-            reject(new Error('当前环境不支持 fetch'));
-            return;
-          }
-
-          let settled = false;
-          const controller = typeof AbortController === 'function' ? new AbortController() : null;
-          const timer = setTimeout(() => {
-            if (controller) controller.abort();
-            done(new Error('探测超时：' + url));
-          }, PROBE_TIMEOUT);
-
-          function done(error) {
-            if (settled) return;
-            settled = true;
-            clearTimeout(timer);
-            if (error) reject(error); else resolve(url);
-          }
-
-          fetch(url, {
-            mode: 'no-cors',
-            cache: 'no-store',
-            redirect: 'follow',
-            signal: controller ? controller.signal : undefined,
-          }).then(() => done(), (error) => done(error));
-        });
-      }
-
-      // 按优先级顺序探测，返回首个可用地址；全部失败返回 null
-      function findAvailable(service) {
-        return candidateUrls(service).reduce((chain, url) => chain.then((found) => {
-          if (found) return found;
-          return probe(url).then(() => url, () => null);
-        }), Promise.resolve(null));
-      }
-
-      // 带缓存的解析：失败时回落 *.pj568.top；refresh 为真时强制重新探测
-      function resolve(service, refresh) {
-        if (refresh || !resolutionCache[service]) {
-          resolutionCache[service] = findAvailable(service).then((found) => ({
-            url: found || fallbackUrl(service),
-            available: Boolean(found),
-          }));
-        }
-        return resolutionCache[service];
-      }
-
-      // 预探测并改写 href
-      function preflight() {
-        document.querySelectorAll('a[data-service]').forEach((link) => {
-          const service = link.dataset.service;
-          resolve(service).then((result) => {
-            link.href = result.url;
-            link.dataset.available = result.available ? 'true' : 'false';
-          });
-        });
-      }
-
-      // 点击兜底：预探测未确认可用时，拦截默认跳转并重新逐级尝试
-      function onClick(event) {
-        const target = event.target;
-        const link = target && target.closest ? target.closest('a[data-service]') : null;
-        if (!link) return;
-        if (link.dataset.available === 'true') return; // 已确认可用，交给浏览器默认跳转
-
-        event.preventDefault();
-        const refresh = link.dataset.available === 'false'; // 全部失败过则强制重试
-        resolve(link.dataset.service, refresh).then((result) => {
-          location.href = result.url;
-        });
-      }
-
-      window.addEventListener('DOMContentLoaded', () => {
-        preflight();
-        document.addEventListener('click', onClick);
-      });
-    })();
-  </script>
+  <script src="fallback.js"></script>
 </body>
 
 </html>
