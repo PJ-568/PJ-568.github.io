@@ -3,6 +3,10 @@
 // 候选顺序：<目标>.<当前域名> > <目标>.pj568.top > <目标>.pj568.eu.org
 // 全部不可用时回落 <目标>.pj568.top。
 //
+// 可用性判定：能建立连接即视为可用。但当前域名若为通配域名
+// （如 Cloudflare Pages 的 *.pages.dev，任意子域都返回 404 兜底页），
+// 则子域目标跳过 `<目标>.<当前域名>` 层级，避免误判；裸域目标不受此限。
+//
 // 声明式用法：
 //   子域服务（按 blog.<域名> 逐级探测）：<a data-fallback="blog" href="//blog.pj568.top">
 //   裸域主页（@ 表示裸域，按 <域名>/ 逐级探测）：<a data-fallback="@" href="/">
@@ -22,18 +26,6 @@
   //// 解析结果缓存：目标 -> Promise<{ url, available }>
   const resolutionCache = {};
 
-  // 生成域名候选：当前域名优先（保留端口），其后依次为兜底域名，去重
-  function origins() {
-    const seen = {};
-    const list = [];
-    [location.host].concat(FALLBACK_DOMAINS).forEach((origin) => {
-      if (!origin || seen[origin]) return;
-      seen[origin] = true;
-      list.push(origin);
-    });
-    return list;
-  }
-
   // 目标对应子域前缀与路径
   function targetPrefix(target) {
     return target === APEX ? '' : target + '.';
@@ -43,11 +35,47 @@
     return target === APEX ? '/' : '';
   }
 
+  //// 当前域名是否为通配域名的探测结果缓存
+  let wildcardPromise = null;
+
+  // 判断当前域名是否为通配域名：随机子域也能连上即视为通配
+  // localhost 与 IP 字面量的子域天然解析，不做判断
+  function isWildcardOrigin() {
+    if (!wildcardPromise) {
+      const hostname = location.hostname;
+      const skip = !hostname || hostname === 'localhost' ||
+        hostname.endsWith('.localhost') || hostname.includes(':') || /^[\d.]+$/.test(hostname);
+      wildcardPromise = skip
+        ? Promise.resolve(false)
+        : probe('//pj568-probe-' + Math.random().toString(36).slice(2, 10) + '.' + location.host)
+          .then(() => true, () => false);
+    }
+    return wildcardPromise;
+  }
+
+  // 生成域名候选：当前域名优先（保留端口），其后依次为兜底域名，去重
+  // 子域目标在当前域名为通配域名时跳过当前域名；裸域目标始终保留当前域名
+  function origins(target) {
+    const keepCurrent = target === APEX
+      ? Promise.resolve(true)
+      : isWildcardOrigin().then((wildcard) => !wildcard);
+    return keepCurrent.then((useCurrent) => {
+      const seen = {};
+      const list = [];
+      (useCurrent ? [location.host] : []).concat(FALLBACK_DOMAINS).forEach((origin) => {
+        if (!origin || seen[origin]) return;
+        seen[origin] = true;
+        list.push(origin);
+      });
+      return list;
+    });
+  }
+
   // 生成候选地址
   function candidateUrls(target) {
-    return origins().map((origin) => (
+    return origins(target).then((list) => list.map((origin) => (
       '//' + targetPrefix(target) + origin + targetPath(target)
-    ));
+    )));
   }
 
   // 默认兜底地址
@@ -88,10 +116,10 @@
 
   // 按优先级顺序探测，返回首个可用地址；全部失败返回 null
   function findAvailable(target) {
-    return candidateUrls(target).reduce((chain, url) => chain.then((found) => {
+    return candidateUrls(target).then((urls) => urls.reduce((chain, url) => chain.then((found) => {
       if (found) return found;
       return probe(url).then(() => url, () => null);
-    }), Promise.resolve(null));
+    }), Promise.resolve(null)));
   }
 
   // 带缓存的解析：失败时回落 *.pj568.top；refresh 为真时强制重新探测
